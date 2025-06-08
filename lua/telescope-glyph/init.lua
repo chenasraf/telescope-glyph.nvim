@@ -23732,11 +23732,17 @@ local glyphs = {
     description = "Heavy up light down",
   },
   {
-    name = "U+2026"
+    name = "U+2026",
     value = "…",
     category = "Unicode",
-    description = "Horizontal ellipsis"
-  }
+    description = "Horizontal ellipsis",
+  },
+  {
+    name = "U+22EE",
+    value = "⋮",
+    category = "Unicode",
+    description = "Vertical ellipsis",
+  },
 }
 
 return { glyphs = glyphs }
